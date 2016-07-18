@@ -1,0 +1,54 @@
+<h2>User</h2>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First Name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last Name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Login Name:</strong>
+  <%= @user.login_name %>
+</p>
+
+<h2>Authorized cars</h2>
+
+<% @user.cars.each do |car| %>
+  <p>
+    <strong>Model:</strong>
+    <%= car.model %>
+  </p>
+ 
+  <p>
+    <strong>Note:</strong>
+    <%= car.note %>
+  </p>
+<% end %> 
+
+<h2>Add cars</h2>
+<%= form_for([@user, @user.cars.build]) do |f| %>
+  <p>
+    <%= f.label :model %><br>
+    <%= f.text_area :model %>
+  </p>
+  <p>
+    <%= f.label :note %><br>
+    <%= f.text_field :note %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %> 
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
