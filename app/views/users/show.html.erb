@@ -39,7 +39,7 @@
 <%= form_for([@user, @user.cars.build]) do |f| %>
   <p>
     <%= f.label :model %><br>
-    <%= f.text_area :model %>
+    <%= f.text_field :model %>
   </p>
   <p>
     <%= f.label :note %><br>
