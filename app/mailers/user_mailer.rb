@@ -1,10 +1,10 @@
 class UserMailer < ApplicationMailer
 
-  default from: 'do-not-reply@example.com'
+  default from: 'do-not-reply@abc-xyz.com'
  
   def welcome_email(user)
     @user = user
-    @url  = 'http://example.com/login'
+    @url  = 'http://www.abc-xyz.com/login'
     mail(to: @user.email, subject: 'Welcome to My Awesome Site')
   end
 
