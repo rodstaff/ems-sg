@@ -1,5 +1,5 @@
 #ems-sg
-A cleaned-up version of 'EMS' using http://guides.rubyonrails.org/action_mailer_basics.html and Daniel Kehoe's Learn Ruby on Rails, Book2, Ch20.
+A cleaned-up version of 'EMS' using http://guides.rubyonrails.org/action_mailer_basics.html and Daniel Kehoe's Learn Ruby on Rails, Book2, Ch20. This update also uses SendGrid, a cloud-based email delivery service that greatly enhances the speed of email delivery that would otherwise be very slow.
 
 #EMS:  Employee Management System
 
