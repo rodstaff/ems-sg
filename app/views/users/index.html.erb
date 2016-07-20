@@ -23,9 +23,10 @@
         <td><%= user.last_name %></td>
         <td><%= user.email %></td>
         <td><%= user.login_name %></td>
-            <% user.cars.each do |car| %>
-              <td><%= car.model %></td>
+        <td><% user.cars.each do |car| %>
+            <%= car.model %><br>
             <% end %>
+        </td>
         <td><%= link_to 'ShowCars', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
