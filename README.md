@@ -1,10 +1,8 @@
 #ems-sg
-A cleaned-up version of 'EMS' using http://guides.rubyonrails.org/action_mailer_basics.html and Daniel Kehoe's Learn Ruby on Rails, Book2, Ch20. This update also uses SendGrid, a cloud-based email delivery service that greatly enhances the speed of email delivery that would otherwise be very slow.
+This is a module project to simulate a part of an employee management system at a company.
+A cleaned-up version of project 'EMS' (Employee Management System) using http://guides.rubyonrails.org/action_mailer_basics.html and Daniel Kehoe's Learn Ruby on Rails, Book2, Ch20. This update also uses SendGrid, a cloud-based email delivery service that greatly enhances the speed of email delivery that would otherwise be very slow.
 
-#EMS:  Employee Management System
-
-This is an exercise to simulate a part of an employee management system at a company.
-The following were the instructions:
+The following are the requirements:
 
 "For this exercise, you will create a model for company and a model for employee.
 You will also need to add authorized cars for an employee. When an employee
