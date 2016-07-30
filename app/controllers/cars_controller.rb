@@ -1,6 +1,6 @@
 class CarsController < ApplicationController
 
-  http_basic_authenticate_with name: "dhh", password: "secret", only: :destroy
+  http_basic_authenticate_with name: "rod", password: "secret", only: :destroy
 
   def create
     @user = User.find(params[:user_id])
