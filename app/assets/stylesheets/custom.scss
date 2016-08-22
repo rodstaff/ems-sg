@@ -1,8 +1,10 @@
 body {
   background-color: #eee;
-  color: green;
+  background: url("dropofhope.jpg");
+  background-size: cover;
+  color: white;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -19,7 +21,7 @@ pre {
 }
 
 a {
-  color: blue;
+  color: white;
 
   &:visited {
     color: #666;
@@ -38,7 +40,7 @@ div {
 }
 
 #notice {
-  color: green;
+  color: red;
 }
 
 .field_with_errors {
