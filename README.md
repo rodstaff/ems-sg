@@ -28,19 +28,29 @@ API keys and other data were created and stored in 'secrets.yml' file under the 
 Created and stored inside app/assets/stylesheets/custom.scss
 ###Running the Code on Default Port 3000
 Inside the working directory
+
 ```
 $rails server or $rails s
 ```
+
 the code will run by default on port 3000, thus in the browser window type in
+
 ```
 localhost:3000
 ```
+
 ###Running the Code on a Specified Port
-```$rails s -p <port number> e.g. $rails s -p 8001
+
 ```
+$rails s -p <port number> e.g. $rails s -p 8001
+```
+
 and type in the browser window
-```localhost: 8001
+
 ```
+localhost: 8001
+```
+
 ###Happy Coding!
 ##References/Sources:  
 1.  [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html) 
