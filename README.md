@@ -61,7 +61,8 @@ localhost: 8001
 
 ###Happy Coding!
 ##References/Sources:  
-1.  [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html) 
-2.  [Learn Ruby on Rails by Daniel Kehoe Book2, Ch20](http://learn-rails.com/) 
-3.  [SendGrid](http://sendgrid.com/) a cloud-based email delivery service that greatly enhances the speed of email delivery.
+1.  [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
+2.  [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html) 
+3.  [Learn Ruby on Rails by Daniel Kehoe Book2, Ch20](http://learn-rails.com/) 
+4.  [SendGrid](http://sendgrid.com/) a cloud-based email delivery service that greatly enhances the speed of email delivery.
 
