@@ -12,21 +12,29 @@ This is a module project to simulate a part of an employee management system at 
 ###Model
 1. Create a Class 'Car' that 'belongs_to' a Class 'user'.
 2. Create a Class 'User' that 'has_many' cars.
+
 ###View
 1.  Create a user_mailer
 2.  Create users with CRUD functions
+
 ###Controller
 1.  Create cars_controller.rb
 2.  Create users_controller.rb
 3.  Create welcome_controller.rb
 4.  Create mailers
+
 ###DataBase and Migrations
 sqlite3
+
 ###SendGrid
 API keys and other data were created and stored in 'secrets.yml' file under the 'config' folder.
+
 ###Style Sheets and Images
+
 Created and stored inside app/assets/stylesheets/custom.scss
+
 ###Running the Code on Default Port 3000
+
 Inside the working directory
 
 ```
